@@ -108,6 +108,64 @@ header .jumbo button {
   color: white;
   font-size: 20px;
 }
-
 /* jumbotron */
 /* header */
+
+
+/* main */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+[class^="col-"] {
+  float: left;
+  margin: 40px 0;
+}
+
+.bg-lightgrey {
+  background-color: #D3D3D3;
+}
+
+.col-100 {
+  width: 100%;
+  text-align: center;
+}
+.col-33 {
+  width: calc(100% / 3)
+}
+
+ main .content-col-100 h3 {
+   padding-bottom: 25px;
+   font-size: 25px;
+}
+
+main .content-col-100 p {
+  color: grey;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+[class^="main-img-"] {
+  height: 200px;
+}
+.main-img-profile {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../img/profile.svg');
+}
+.main-img-computer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../img/computer.svg');
+}
+.main-img-doc {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../img/doc.svg');
+}
+
+
+
+
+/* main */

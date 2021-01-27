@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  bg-color: red;
+}
+
+/* UTILITY */
+.bg-green {
+  background-color: #91C52B;
+}
+.bg-purple {
+  background-color: #0C325A;
+  border: 1px solid white;
+
+}
+
+/* UTILITY */
+
+/* header */
+header {
+  background-color: #0C325A;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header nav {
+  height: 80px;
+  line-height: 80px;
+}
+
+header nav .logo {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+header nav .logo img {
+padding-bottom: 13px;
+vertical-align: middle;
+}
+
+header nav ul {
+  display: inline-block;
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+header nav ul.btn-list{
+  color: white;
+  float: right;
+  margin-left: 20px;
+}
+
+header nav ul.btn-list li button {
+  border-radius: 5px;
+  padding: 5px 12px;
+  color: white;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+
+/* jumbotron */
+header .jumbo {
+  padding-top: 300px;
+  margin-left: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-image: url('../img/background-header.png');
+}
+ .jumbo-content .text-jumbo {
+  color: white;
+
+}
+
+header .jumbo button {
+  padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+
+}
+/* jumbotron */
+
+
+
+
+
+
+
+/* header */

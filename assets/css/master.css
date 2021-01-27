@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  bg-color: red;
 }
 
 /* UTILITY */
@@ -96,9 +95,9 @@ header .jumbo {
 }
 
 .jumbo-content .text-jumbo {
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 header .jumbo button {
@@ -120,7 +119,8 @@ header .jumbo button {
 }
 [class^="col-"] {
   float: left;
-  margin: 40px 0;
+  margin: 60px 0;
+  text-align: center;
 }
 
 .bg-lightgrey {
@@ -131,8 +131,11 @@ header .jumbo button {
   width: 100%;
   text-align: center;
 }
+.col-50 {
+  width: calc(100% / 2);
+}
 .col-33 {
-  width: calc(100% / 3)
+  width: calc(100% / 3 - 30px );
 }
 
  main .content-col-100 h3 {
@@ -143,11 +146,12 @@ header .jumbo button {
 main .content-col-100 p {
   color: grey;
   font-size: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 [class^="main-img-"] {
   height: 200px;
+  margin-bottom: 40px;
 }
 .main-img-profile {
   background-position: center;
@@ -165,7 +169,25 @@ main .content-col-100 p {
   background-image: url('../img/doc.svg');
 }
 
+.col-33.central {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.hr {
+  margin: 0 5px;
+}
 
+.img-col-50 {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  background-image: url('../img/mountain.svg');
+}
 
+.row.central.conatiner .margin-auto {
+  margin: 0 auto;
+
+}
 
 /* main */

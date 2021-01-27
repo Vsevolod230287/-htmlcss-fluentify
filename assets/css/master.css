@@ -5,34 +5,36 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   bg-color: red;
 }
 
 /* UTILITY */
 .bg-green {
+  border: none;
   background-color: #91C52B;
 }
+
 .bg-purple {
   background-color: #0C325A;
   border: 1px solid white;
-
 }
 
 /* UTILITY */
-
 /* header */
 header {
   background-color: #0C325A;
 }
 
 .container {
+  position: relative;
   width: 85%;
   margin: 0 auto;
 }
 
 header nav {
-  height: 80px;
-  line-height: 80px;
+  height: 90px;
+  line-height: 90px;
 }
 
 header nav .logo {
@@ -41,14 +43,15 @@ header nav .logo {
 }
 
 header nav .logo img {
-padding-bottom: 13px;
-vertical-align: middle;
+  padding-bottom: 13px;
+  vertical-align: middle;
 }
 
 header nav ul {
   display: inline-block;
   list-style: none;
 }
+
 header nav ul li {
   display: inline-block;
 }
@@ -62,7 +65,7 @@ header nav ul li a {
   margin-left: 15px;
 }
 
-header nav ul.btn-list{
+header nav ul.btn-list {
   color: white;
   float: right;
   margin-left: 20px;
@@ -76,34 +79,35 @@ header nav ul.btn-list li button {
   font-size: 12px;
 }
 
-
 /* jumbotron */
 header .jumbo {
-  padding-top: 300px;
-  margin-left: 500px;
+  height: 450px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right;
+  background-position: 366px 16px;
   background-image: url('../img/background-header.png');
 }
- .jumbo-content .text-jumbo {
-  color: white;
 
+.jumbo-content {
+  margin:0 100px;
+  position: absolute;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+
+.jumbo-content .text-jumbo {
+  padding-bottom: 40px;
+  color: white;
+  font-size: 22px;
 }
 
 header .jumbo button {
-  padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-size: 24px;
-
+  border: none;
+  padding: 20px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
 }
+
 /* jumbotron */
-
-
-
-
-
-
-
 /* header */

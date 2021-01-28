@@ -88,7 +88,7 @@ header .jumbo {
 }
 
 .jumbo-content {
-  margin:0 100px;
+  margin: 0 100px;
   position: absolute;
   padding-bottom: 150px;
   padding-top: 100px;
@@ -107,16 +107,16 @@ header .jumbo button {
   color: white;
   font-size: 20px;
 }
+
 /* jumbotron */
 /* header */
-
-
 /* main */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
 [class^="col-"] {
   float: left;
   margin: 60px 0;
@@ -131,16 +131,18 @@ header .jumbo button {
   width: 100%;
   text-align: center;
 }
+
 .col-50 {
   width: calc(100% / 2);
 }
+
 .col-33 {
-  width: calc(100% / 3 - 30px );
+  width: calc(100% / 3 - 30px);
 }
 
- main .content-col-100 h3 {
-   padding-bottom: 25px;
-   font-size: 25px;
+main .content-col-100 h3 {
+  padding-bottom: 25px;
+  font-size: 25px;
 }
 
 main .content-col-100 p {
@@ -153,16 +155,19 @@ main .content-col-100 p {
   height: 200px;
   margin-bottom: 40px;
 }
+
 .main-img-profile {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('../img/profile.svg');
 }
+
 .main-img-computer {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('../img/computer.svg');
 }
+
 .main-img-doc {
   background-position: center;
   background-repeat: no-repeat;
@@ -173,13 +178,14 @@ main .content-col-100 p {
   margin-left: 30px;
   margin-right: 30px;
 }
+
 .hr {
   margin: 0 5px;
 }
 
 .img-col-50 {
-  background-position: center;
-  background-size: contain;
+  background-position: 80px 0;
+  background-size: 39%;
   background-repeat: no-repeat;
   height: 200px;
   background-image: url('../img/mountain.svg');
@@ -187,7 +193,47 @@ main .content-col-100 p {
 
 .row.central.conatiner .margin-auto {
   margin: 0 auto;
-
 }
 
 /* main */
+
+
+/* footer */
+footer {
+  color: grey;
+  background-color: lightgrey;
+}
+footer button {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  margin-left: 100px;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+footer span{
+  padding-right: 50px;
+}
+
+footer .help {
+  position: fixed;
+  bottom:0;
+  right: 180px;
+}
+
+footer .col-50 h3 {
+  color: black;
+  font-size: 30px;
+  text-align: left;
+}
+
+footer div.select-custom {
+  border-bottom: 2px solid green;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+select.select-footer {
+  background-color: lightgrey;
+    border: none;
+}
